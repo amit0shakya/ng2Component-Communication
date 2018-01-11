@@ -1,6 +1,6 @@
 <p>To do List {{data|async}}</p> 
 
-<div *ngFor="let _d of TodoList">
-  <span [hidden]="_d==object">{{_d}}</span>
+<div *ngFor="let _d of TodoList; let i = index">
+  <span [hidden]="i==0">{{_d}}</span>
 
 </div>

@@ -20,6 +20,7 @@ export class Comp1Component implements OnInit {
 
   sendData(){
     this._s.testservice(this.user2);
+    this.user2=null;
   }
 
 }
