@@ -1,0 +1,5 @@
+<div style="width:100%; height:100px; border:1px solid #000;">
+  <input type="text"  [(ngModel)]="user2" class="form-control">
+  <button type="button" (click)='sendData()'>Add to List</button><br>
+  <div>user={{user | async}}</div>
+</div>
